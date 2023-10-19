@@ -1,17 +1,90 @@
+body{
+    background-color: rgba(186, 194, 179, 0.905);
+
+}
+hr{
+    height:5px;
+    color: black;
+    background-color: black;
+}
+table{
+    width:100%;
+
+}
+
 tr {
-    padding-left: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
     width: 100%;
     height: 20%;
 }
 
-td {
-    border: 1px solid rgb(224, 0, 0);
-    padding-left: 50px;
-    
 
-    
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    width: 100%;
 
 }
 
+.home{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    
+    width: 55%;
+
+}
+.links{
+
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    width:15%;
+    
+    text-align: center;
+
+
+}
+
+.main{
+    
+    width:100%;
+    height:max-content;
+    /* border:3px solid; */
+}
+h1.main{
+    font-size: 70px;
+    padding-left:50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+
+p.intro{
+    padding-left:50px;
+    font-size: 35px;
+    color:rgb(104, 104, 104);
+    font-family:'lucida console', 'Courier New', monospace;
+    height:30px;
+    /* border:3px solid; */
+    width:100%;
+    margin-bottom: 0px;
+
+
+}
+
+img{
+    align-items: center;
+    height:300px;
+    width:250px;
+    padding-left: 100px;
+}
+font{
+    font-style:italic;
+    text-decoration:underline;
+}
+p.text{
+    font-size: 25px;
+    font-family: lucida console, 'Courier New', monospace;
+    padding-left: 50px;
+    margin-top:40px;
+}
